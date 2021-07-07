@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font: normal bold 36px/48px 'PT Serif', sans-serif;
+    letter-spacing: -0.045em;
+}
+
+h2 {
+    font: normal 600 18px/27px 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font: normal normal 18px/27px 'Poppins', sans-serif;
+}
+
+.fullname {
+    font: normal 600 18px/27px 'Poppins', sans-serif;
+}
+
+.job {
+    font: normal normal 12px/16px 'PT Serif', sans-serif;
+    text-transform: uppercase;
+}
+
+
+footer p,
+footer p a {
+    text-align: center;
+    font: normal 500 14px/17px 'Montserrat', sans-serif;
+    color: #A9A9A9;
+}
+footer p a {
+    font-weight: bold;
+}
