@@ -37,30 +37,49 @@ img {
 }
 
 .description {
-    float: right;
+    position: absolute;
+    /* left: 0; */
+    right: 400px;
 }
 
 .description p {
     width: 439px;
 }
 
+.one, 
+.two,
+.three,
+.four,
+.five,
+.six {
+    width: 300px;
+}
 .one {
     position: relative;
     top: 150px;
 }
 
-.one .job {
+.job {
     transform: rotate(90deg);
     position: absolute;
     top: 43px;
     left: 210px;
 }
+
 .one .fullname {
     margin-top: 5px;
 }
+
 .two {
     position: relative;
     left: 450px;
+}
+
+.two .job {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 35px;
+    left: 215px;
 }
 
 .three {
